@@ -70,7 +70,7 @@ def is_generated_text(perplexity, burstiness_score):
 
 
 def main():
-    st.title("Language Model Text Analysis")
+    st.title("Detectify-AI Plagiarism Detector")
     text = st.text_area("Enter the text you want to analyze", height=200)
     if st.button("Analyze"):
         if text:
